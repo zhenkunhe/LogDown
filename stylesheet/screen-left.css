@@ -1717,105 +1717,11 @@ body {
   color: inherit;
   text-decoration: underline
 }
-.container .mid-col {
-  position: absolute;
-  right: 0;
-  min-height: 100%;
-  width: 77%;
-  background: white
-}
-.container .mid-col #banner {
-  width: 100%
-}
-.container .mid-col #banner small {
-  margin-right: 70px
-}
-.container .mid-col footer.inner {
-  text-align: center;
-  margin: 0px 70px 0px 40px;
-  width: auto
-}
-.container .mid-col .mid-col-container {
-  padding: 0px 70px 0px 40px
-}
-.container .mid-col .mid-col-container #content {
-  width: 100%
-}
-.container .mid-col .mid-col-container #content article {
-  border-top: none
-}
-.container .mid-col .mid-col-container #content article .title {
-  margin-left: 0px
-}
-.container .mid-col .mid-col-container #content article .entry-content {
-  margin-left: 0px
-}
-.container .mid-col .mid-col-container #content article .entry-content .gist .gist-file .gist-data .line_numbers {
-  line-height: inherit
-}
-.container .mid-col .mid-col-container #content article .entry-content .gist .gist-file .gist-data pre {
-  line-height: inherit
-}
-.container .mid-col .mid-col-container #content article .entry-content h2 {
-  font-size: 1.3em;
-  color: #574C4C;
-  border-bottom: none
-}
-.container .mid-col .mid-col-container #content article .entry-content h2::before {
-  border-bottom: none
-}
-.container .mid-col .mid-col-container #content article .entry-content blockquote {
-  border-left: 5px solid #2571b8;
-  background: #FCFCFC
-}
-.container .mid-col .mid-col-container #content article .entry-content table {
-  line-height: 1.42857em
-}
-.container .mid-col .mid-col-container #content article .entry-content table td {
-  text-align: left
-}
-.container .mid-col .mid-col-container #content article .meta {
-  position: relative;
-  float: right;
-  top: 0px;
-  color: #555;
-  text-align: right;
-  width: auto
-}
-.container .mid-col .mid-col-container #content article .meta .date::before {
-  color: #555;
-  position: relative;
-  margin-right: 10px
-}
-.container .mid-col .mid-col-container #content article .meta .tags::before {
-  color: #999;
-  position: relative;
-  margin-right: 10px
-}
-.container .mid-col .mid-col-container #content article h1.title a,
-.container .mid-col .mid-col-container #content article .title a {
-  color: #333;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s
-}
-.container .mid-col .mid-col-container #content article h1.title a:hover,
-.container .mid-col .mid-col-container #content article .title a:hover {
-  color: #2571b8;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s
-}
-.container .mid-col footer {
-  width: 100%
-}
 .container .left-col:hover {
   opacity: 1
 }
 .container .left-col {
-  width: 23%;
+  width: 20%;
   position: fixed
 }
 
@@ -1896,15 +1802,5 @@ a:hover {
   .container .left-col #header #main-nav ul li {
     display: inline;
     margin-right: 10px
-  }
-  .container .mid-col {
-    float: none;
-    width: 100%
-  }
-  .container .mid-col .mid-col-container {
-    padding: 15px 15px
-  }
-  .container .mid-col .mid-col-container #content article .meta {
-    float: none
   }
 }
