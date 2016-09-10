@@ -1816,6 +1816,7 @@ body {
 }
 .container .left-col {
   width: 23%;
+  position: fixed
 }
 
 .container .left-col .intrude-less {
