@@ -4,13 +4,7 @@
   margin: 0;
   padding: 0
 }
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  background: #eee;
-  color: #666
-}
+
 @media screen and (max-width: 1040px) {
   body {
     margin: 0 20px
@@ -1650,11 +1644,6 @@ strong.highlight {
 }
 html {
   height: 100%
-}
-body {
-  font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100%;
-  color: #333
 }
 ::selection,
 ::-moz-selection,
