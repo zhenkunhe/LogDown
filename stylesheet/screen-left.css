@@ -916,7 +916,7 @@ body {
   opacity: 1
 }
 .container .left-col {
-  background: #3D4349;
+  background-image:url(../images/bg.jpg);
   width: 23%;
   height: 100%;
   position: fixed
