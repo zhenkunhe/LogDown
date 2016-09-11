@@ -917,6 +917,7 @@ body {
 }
 .container .left-col {
   background-image:url(../images/bg.jpg);
+  background-position: center center;
   width: 23%;
   height: 100%;
   position: fixed
