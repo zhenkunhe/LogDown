@@ -917,7 +917,8 @@ body {
 }
 .container .left-col {
   background: #3D4349;
-  width: 16%;
+  width: 23%;
+  height: 100%;
   position: fixed
 }
 
