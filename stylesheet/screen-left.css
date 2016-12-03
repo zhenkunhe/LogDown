@@ -901,6 +901,10 @@ body {
   position: relative;
   min-height: 100%
 }
+
+
+
+
 .container .mid-col {
     position: absolute;
     right: 0;
@@ -908,6 +912,50 @@ body {
     width: 77%;
     background: white
 }
+.container .mid-col #banner {
+    width: 100%
+}
+.container .mid-col #banner small {
+    margin-right: 70px
+}
+.container .mid-col footer.inner {
+    text-align: center;
+    margin: 0px 70px 0px 40px;
+    width: auto
+}
+.container .mid-col .mid-col-container {
+    padding: 0px 70px 0px 40px
+}
+.container .mid-col .mid-col-container #content {
+    width: 100%
+}
+.container .mid-col .mid-col-container #content article {
+    border-top: none
+}
+.container .mid-col .mid-col-container #content article .title {
+    margin-left: 0px
+}
+.container .mid-col .mid-col-container #content article .entry-content {
+    margin-left: 0px
+}
+.container .mid-col .mid-col-container #content article .entry-content .gist .gist-file .gist-data .line_numbers {
+    line-height: inherit
+}
+.container .mid-col .mid-col-container #content article .entry-content .gist .gist-file .gist-data pre {
+    line-height: inherit
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .container .credit-box {
   color: #AAA;
   font-size: .8em;
