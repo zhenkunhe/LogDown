@@ -2,7 +2,21 @@
 @import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
 @import url(http://cdn-theme.logdown.io/utils/stylesheets/default_dropdown.css);
 /* normalize.css v2.1.3 | MIT License | git.io/normalize */
-
+.categories {
+    color: #d04e38
+}
+.categories .category {
+    background-color: #943221;
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 10px;
+    color: #ffeb90;
+    text-decoration: none
+}
+.categories .category:hover {
+    background-color: #ffeb90;
+    color: #943221
+}
 article,
 aside,
 details,
