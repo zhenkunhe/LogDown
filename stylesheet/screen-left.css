@@ -944,7 +944,61 @@ body {
 .container .mid-col-container #content article .entry-content .gist .gist-file .gist-data pre {
     line-height: inherit
 }
-
+.container .mid-col-container #content article .entry-content h2 {
+    font-size: 1.3em;
+    color: #574C4C;
+    border-bottom: none
+}
+.container .mid-col-container #content article .entry-content h2::before {
+    border-bottom: none
+}
+.container .mid-col-container #content article .entry-content blockquote {
+    border-left: 5px solid #2571b8;
+    background: #FCFCFC
+}
+.container .mid-col-container #content article .entry-content table {
+    line-height: 1.42857em
+}
+.container .mid-col-container #content article .entry-content table td {
+    text-align: left
+}
+.container .mid-col-container #content article .meta {
+    position: relative;
+    float: right;
+    top: 0px;
+    color: #555;
+    text-align: right;
+    width: auto
+}
+.container .mid-col-container #content article .meta .date::before {
+    color: #555;
+    position: relative;
+    margin-right: 10px
+}
+.container .mid-col-container #content article .meta .tags::before {
+    color: #999;
+    position: relative;
+    margin-right: 10px
+}
+.container .mid-col-container #content article h1.title a,
+.container .mid-col-container #content article .title a {
+    color: #333;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s
+}
+.container .mid-col-container #content article h1.title a:hover,
+.container .mid-col-container #content article .title a:hover {
+    color: #2571b8;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s
+}
+.container .mid-col-container footer {
+    width: 100%
+}
 
 
 
