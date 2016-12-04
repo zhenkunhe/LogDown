@@ -1281,14 +1281,15 @@ code {
     }
 }
 
-form .search {
+form {
     padding: .3em .5em 0;
     font-size: .85em;
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     line-height: 1.1em;
     width: 95%;
     background-color: #fff;
-    color: #222
+    color: #222;
+    border: 2px;
 }
 
 input[type=text] {
