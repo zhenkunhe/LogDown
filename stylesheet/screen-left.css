@@ -906,13 +906,13 @@ body {
 
 
 
-.container #banner {
+.container .mid-col-container #banner {
     width: 100%
 }
-.container #banner small {
+.container .mid-col-container #banner small {
     margin-right: 70px
 }
-.container footer.inner {
+.container .mid-col-container footer.inner {
     text-align: center;
     margin: 0px 70px 0px 40px;
     width: auto
