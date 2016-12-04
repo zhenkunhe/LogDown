@@ -18,21 +18,7 @@
     color: #2D2D2D
 }
 
-
-form {
-    -webkit-background-clip: padding;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 form .search {
-    position: relative;
-    background-color: #d74c21;
-    padding-top: .35em;
-    padding-bottom: .35em;
-       
     padding: .3em .5em 0;
     font-size: .85em;
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -40,6 +26,14 @@ form .search {
     width: 95%;
     background-color: #fff;
     color: #222
+}
+input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
 }
 
 article,
