@@ -18,7 +18,17 @@
     color: #2D2D2D
 }
 
-body>nav form .search {
+.search {
+    position: relative;
+    background-color: #d74c21;
+    padding-top: .35em;
+    padding-bottom: .35em;
+        
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    margin: 0;
+        
     padding: .3em .5em 0;
     font-size: .85em;
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
