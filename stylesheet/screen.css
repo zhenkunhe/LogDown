@@ -1304,6 +1304,5 @@ input[type=text] {
 
 input[type=text]:focus {
     width: 100%;
-    background-color: lightblue;
-    border: 3px solid #555;
+    background-color: #C5EDA3;
 }
