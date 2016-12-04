@@ -18,14 +18,20 @@
     color: #2D2D2D
 }
 
-form {
+body>nav {
+    position: relative;
+    background-color: #d74c21;
+    padding-top: .35em;
+    padding-bottom: .35em
+}
+body>nav form {
     -webkit-background-clip: padding;
     -moz-background-clip: padding;
     background-clip: padding-box;
     margin: 0;
     padding: 0
 }
-form .search {
+body>nav form .search {
     position: relative;
     background-color: #d74c21;
     padding-top: .35em;
