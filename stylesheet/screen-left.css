@@ -905,13 +905,7 @@ body {
 
 
 
-.container .mid-col {
-    position: absolute;
-    right: 0;
-    min-height: 100%;
-    width: 77%;
-    background: white
-}
+
 .container .mid-col #banner {
     width: 100%
 }
@@ -924,6 +918,11 @@ body {
     width: auto
 }
 .container .mid-col .mid-col-container {
+    position: absolute;
+    right: 0;
+    min-height: 100%;
+    width: 77%;
+    background: white;
     padding: 0px 70px 0px 40px
 }
 .container .mid-col .mid-col-container #content {
