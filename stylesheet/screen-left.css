@@ -920,11 +920,11 @@ body {
 }
 .container .mid-col-container footer.inner {
     text-align: center;
-    margin: 0px 70px 0px 40px;
+    margin: 0px 0px 0px 0px;
     width: auto
 }
 .container .mid-col-container {
-    padding: 0px 70px 0px 40px
+    padding: 0px 0px 0px 0px
 }
 .container .mid-col-container #content {
     width: 100%
